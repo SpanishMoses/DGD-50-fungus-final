@@ -397,7 +397,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 911020783}
   selectedCommands:
-  - {fileID: 911020836}
+  - {fileID: 911020798}
   variables: []
   description: 
   stepPause: 0
@@ -824,7 +824,7 @@ MonoBehaviour:
   itemId: 19
   indentLevel: 0
   storyText: Damn, I wish I could've done more for that kid... if only I had more
-    strength...
+    authority over people like them I could stop things like this from happening...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -1846,7 +1846,7 @@ MonoBehaviour:
   itemId: 51
   indentLevel: 0
   storyText: Why are there always guys like them who just pile on people who can't
-    stand up for themselves
+    stand up for themselves.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
