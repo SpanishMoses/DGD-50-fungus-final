@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 911020821}
   - component: {fileID: 911020819}
   - component: {fileID: 911020836}
+  - component: {fileID: 911020837}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -397,7 +398,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 911020783}
   selectedCommands:
-  - {fileID: 911020798}
+  - {fileID: 911020837}
   variables: []
   description: 
   stepPause: 0
@@ -447,6 +448,7 @@ MonoBehaviour:
   - {fileID: 911020790}
   - {fileID: 911020789}
   - {fileID: 911020788}
+  - {fileID: 911020837}
   - {fileID: 911020804}
   - {fileID: 911020803}
   - {fileID: 911020802}
@@ -1849,6 +1851,33 @@ MonoBehaviour:
     stand up for themselves.
   description: 
   character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911020837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  storyText: It was an accident!
+  description: 
+  character: {fileID: 1179335204}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
