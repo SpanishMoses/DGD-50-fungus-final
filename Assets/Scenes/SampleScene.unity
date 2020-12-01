@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 911020823}
   - component: {fileID: 911020821}
   - component: {fileID: 911020819}
+  - component: {fileID: 911020836}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -394,9 +395,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 911020809}
+  - {fileID: 911020783}
   selectedCommands:
-  - {fileID: 911020830}
+  - {fileID: 911020836}
   variables: []
   description: 
   stepPause: 0
@@ -423,7 +424,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 138.88235
-    y: 2.0588303
+    y: 1.0588303
     width: 118.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -453,6 +454,7 @@ MonoBehaviour:
   - {fileID: 911020800}
   - {fileID: 911020807}
   - {fileID: 911020799}
+  - {fileID: 911020836}
   - {fileID: 911020798}
   - {fileID: 911020806}
   - {fileID: 911020805}
@@ -548,7 +550,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: None of your business. Unless you wanna end up like him too?
+  storyText: I told you this is none of your business. This guy keyed my car and
+    now he has to pay for it. If you don't wanna end up like him too? I suggest you
+    walk away now, or things will get ugly
   description: 
   character: {fileID: 747927927}
   portrait: {fileID: 0}
@@ -575,7 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: Can you tell me why that kids on the ground?
+  storyText: Kind of looks like you're harrassing this guy for money?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -629,7 +633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Nothing! Just walk away!
+  storyText: Mind your business kid! Just walk away!
   description: 
   character: {fileID: 1391525089}
   portrait: {fileID: 0}
@@ -656,7 +660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: HEY! Whats going on over here?
+  storyText: HEY! Is there a problem over here?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -792,7 +796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: TAKE THIS!
+  storyText: C'mon we know you've still got some cash on you
   description: 
   character: {fileID: 939171919}
   portrait: {fileID: 0}
@@ -847,8 +851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: Aghhh. That seriously hurt... Well at least the kid got away. Damn those
-    bullies for picking on him.
+  storyText: 'Aghhh. Wow that hurts... I guess I should have seen this coming ...
+    Well at least the kid got away. Could have at least said thank you though. '
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -875,7 +879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: Know your place.
+  storyText: WE TOLD YOUR ASS!!!
   description: 
   character: {fileID: 1391525089}
   portrait: {fileID: 0}
@@ -956,7 +960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: HOW ABOUT NO!
+  storyText: The cops?! HOW ABOUT HELL NO!
   description: 
   character: {fileID: 747927927}
   portrait: {fileID: 0}
@@ -983,8 +987,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: I dont want any trouble. He cant even defend himself. If you guys even
-    have an ounce of compassion, just let him go.
+  storyText: Hey man look, I dont want any trouble, but he cant even defend himself.
+    If you guys are having money disputes, surly there are better ways of working
+    things out. Maybe I can get the police and we can all work things out peacfully.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -1565,7 +1570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: Will do!
+  storyText: Uhh yeah, sure, will do!
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -1676,8 +1681,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: '"Who is this, why did he call me lord, am I his master? I guess in
-    this dream I am a king of some sort"'
+  storyText: Who is this, why did he call me lord, am I his master? I guess in this
+    dream I am a king of some sort
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -1814,6 +1819,34 @@ MonoBehaviour:
   itemId: 35
   indentLevel: 0
   storyText: Did I... noooo that kind of stuff only happens in anime...
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911020836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  storyText: Why are there always guys like them who just pile on people who can't
+    stand up for themselves
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
