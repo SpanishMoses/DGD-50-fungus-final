@@ -382,7 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 325.15063, y: 101.44116}
+  scrollPos: {x: 226.15063, y: 92.44116}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -394,8 +394,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 911020820}
-  selectedCommands: []
+  - {fileID: 911020809}
+  selectedCommands:
+  - {fileID: 911020830}
   variables: []
   description: 
   stepPause: 0
@@ -423,7 +424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 138.88235
     y: 2.0588303
-    width: 117
+    width: 118.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1111,7 +1112,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.708725
     y: 162.28696
-    width: 154
+    width: 157.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1410,7 +1411,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.2775
     y: 262.57727
-    width: 171
+    width: 174.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1461,7 +1462,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 121.673096
     y: 260.1817
-    width: 152
+    width: 154.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1512,7 +1513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -58.546154
     y: 257.9838
-    width: 145
+    width: 147.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1675,7 +1676,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: '"Oh crap I gotta play this off"'
+  storyText: '"Who is this, why did he call me lord, am I his master? I guess in
+    this dream I am a king of some sort"'
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -1702,7 +1704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: '*Breaks down door* There you are my lord, the whole castle has been
+  storyText: '*Slams door open* There you are my lord, the whole castle has been
     looking for you! How come you havent even left your room?'
   description: 
   character: {fileID: 1802095111}
@@ -1784,7 +1786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: Or does it?! There's no way in hell I got transported to another world.
+  storyText: '"No... I must be dreaming, yeah that''s it, dreaming"'
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
