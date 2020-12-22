@@ -1735,6 +1735,10 @@ GameObject:
   - component: {fileID: 911021624}
   - component: {fileID: 911021625}
   - component: {fileID: 911021626}
+  - component: {fileID: 911021627}
+  - component: {fileID: 911021628}
+  - component: {fileID: 911021629}
+  - component: {fileID: 911021630}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1755,11 +1759,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1147.7755, y: -714.3514}
+  scrollPos: {x: 1242.8601, y: -513.3271}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
-  zoom: 0.49000028
+  blockViewHeight: 546.8
+  zoom: 0.37000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1767,9 +1771,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 911021310}
-  selectedCommands:
-  - {fileID: 911021626}
+  - {fileID: 911021068}
+  selectedCommands: []
   variables:
   - {fileID: 911020841}
   - {fileID: 911020840}
@@ -1802,7 +1805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.14818
     y: 1.0588303
-    width: 109.18364
+    width: 112.7027
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2525,7 +2528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 119.53226
     y: 163.35078
-    width: 143.8775
+    width: 149.45944
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2833,7 +2836,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 413.51306
     y: 301.401
-    width: 158.16321
+    width: 164.59459
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2897,7 +2900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 121.84956
     y: 287.88785
-    width: 141.83669
+    width: 147.29729
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2914,10 +2917,13 @@ MonoBehaviour:
   - {fileID: 911020891}
   - {fileID: 911020890}
   - {fileID: 911020889}
+  - {fileID: 911021627}
   - {fileID: 911020888}
   - {fileID: 911020897}
   - {fileID: 911020896}
   - {fileID: 911020895}
+  - {fileID: 911021629}
+  - {fileID: 911021628}
   - {fileID: 911020894}
   - {fileID: 911020902}
   - {fileID: 911020901}
@@ -2963,7 +2969,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -162.1493
     y: 295.90005
-    width: 135.71423
+    width: 140.8108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3988,7 +3994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -253.56166
     y: 389.70645
-    width: 143.8775
+    width: 149.45944
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4104,7 +4110,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -81.78949
     y: 389.20645
-    width: 90.8163
+    width: 93.24324
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4897,7 +4903,8 @@ MonoBehaviour:
   itemId: 109
   indentLevel: 0
   storyText: However, before we begin, I would like everyone to give an honorary
-    welcome to our lord who will be joining us for todays meeting
+    welcome to our lord who seems to have actually risen from his eternal slumber
+    to grace us with his presence today.
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5059,8 +5066,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: Come time of the invasion, we will tie these criminals to our shields
-    so the enemy forces will back down and we will have a swift victory!
+  storyText: 'Come time of the invasion, as our troops march into battle, we will
+    tie these traitorous cowards to our shields! '
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5087,8 +5094,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: 'We have captured several rebel forces whom were discovered stealing
-    several pieces of iron in order to bolster their arms. '
+  storyText: 'We have captured several rebels whom were discovered stealing several
+    pieces of iron in the blacksmiths workshop. Probably done in order to bolster
+    their arms. '
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5115,8 +5123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: 'Now we can begin. We will be discussing a new tactic to bring down
-    the rebel forces forming in the town. '
+  storyText: 'Now we can begin. We will be discussing our plans to bring down the
+    rebel forces forming in the town. '
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5143,7 +5151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  storyText: '*Shocked face*'
+  storyText: My lord... I'm surprised. I figured you of all people would be on board.
   description: 
   character: {fileID: 1762710915}
   portrait: {fileID: 21300000, guid: 96e88ad29778b91418a63039cd8c2064, type: 3}
@@ -5172,7 +5180,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 89.594246
     y: 380.38785
-    width: 82.653046
+    width: 84.59459
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5198,6 +5206,7 @@ MonoBehaviour:
   - {fileID: 911020904}
   - {fileID: 911020916}
   - {fileID: 911020910}
+  - {fileID: 911021630}
   - {fileID: 911020909}
   - {fileID: 911020908}
   - {fileID: 911020907}
@@ -5226,7 +5235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  storyText: I object!
+  storyText: I... object...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -5305,7 +5314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 200.84955
     y: 382.38785
-    width: 103.061195
+    width: 106.21622
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5352,8 +5361,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 132
   indentLevel: 0
-  storyText: They must have had a good reason to steal it! Surely the town must have
-    agreed upon what the iron would be used for!
+  storyText: Then why steal it? Surely they must understand that it was already goint
+    to help them.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -5435,7 +5444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  storyText: ....
+  storyText: Our people...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -5462,7 +5471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  storyText: So my lord! You tell me who the inhumane one is!
+  storyText: This is all for the greater good of our people
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5489,8 +5498,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  storyText: Now all that has gone to waste for a fruitless effort of uprising and
-    it's all thanks to those few who stole it without even consulting the town!
+  storyText: Reguardless, now all that has gone to waste for a fruitless effort of
+    uprising and it's all thanks to those few who stole it without even consulting
+    the town! They should be made an example of. Show the rest of these rebels that
+    this behaviour will not be tolerated
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5517,9 +5528,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: All that iron that was stolen for weapons and armor would have went
+  storyText: 'All that iron that was stolen for weapons and armor would have went
     to helping the town floruish! They would have had stronger infrustructure, more
-    opportunities for trade, and utility!
+    opportunities for trade, and utility! All they would have had to do was give
+    us 25 percent of their trade earnings to fund the kingdom. '
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5546,9 +5558,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: If you must know my lord, these captures not only tried to further the
-    uprising against us, but that iron that was stolen was going to the infrustructure
-    of the town!
+  storyText: My lord, these rebels we've captured not only tried to further the uprising
+    against us, but that iron that was stolen was going towards improvement of the
+    infrustructure for the town!
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -5575,7 +5587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: No matter who they are or what they did, it's still inhumane!
+  storyText: We SHOULD be able to defeat them because we are the best, the strongest.
+    Resorting to these tactics will just be a display of weakness.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -5602,8 +5615,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  storyText: Is it really a good idea to be tying up these soldiers to our shields
-    like this?
+  storyText: I don't see much point to this tactic. Surly if our forces are strong
+    enough there shouldn't be any need to indulge in a tactic like this.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -5658,7 +5671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  storyText: My lord is this really a good idea?
+  storyText: My lord are you sure you are well?
   description: 
   character: {fileID: 1620742911}
   portrait: {fileID: 21300000, guid: 3892376a2b2eb6e41873c150b3765e94, type: 3}
@@ -5685,7 +5698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 133
   indentLevel: 0
-  storyText: NO! The town did not agree and now the progress will be halted!
+  storyText: You give these traitors too much credit my lord.
   description: 
   character: {fileID: 1982682656}
   portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
@@ -6036,7 +6049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 146
   indentLevel: 0
-  storyText: ....
+  storyText: Oh... whoops
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -6145,7 +6158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: What might that law be?
+  storyText: What was the law again, remind me.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -6172,8 +6185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  storyText: Well since you're here, we can finally begin discussing a new law we
-    have been throwing around lately.
+  storyText: Well since you're here, we can finally begin discussing plans for a
+    new law that we have been throwing around.
   description: 
   character: {fileID: 1802095111}
   portrait: {fileID: 21300000, guid: 0c97e1aca9b0e344fa23df756e548302, type: 3}
@@ -6229,7 +6242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 513.2075
     y: 386.1866
-    width: 143.8775
+    width: 149.45944
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6291,7 +6304,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.00162
     y: 384.8631
-    width: 135.71423
+    width: 140.8108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6337,7 +6350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 160
   indentLevel: 0
-  storyText: Is taking over the land all you can think about?
+  storyText: Well we can't really conquer the land if we can't even take care of
+    the ones we conquer now can we?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -6447,7 +6461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: Yeah there is a problem!
+  storyText: Actually yeah
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -6474,7 +6488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  storyText: ...
+  storyText: Greater good...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -6585,7 +6599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: Clearly you poor excuse of a ruler are not seeing the bigger picture...
+  storyText: My lord I believe you are not seeing the bigger picture here...
   description: 
   character: {fileID: 1802095111}
   portrait: {fileID: 21300000, guid: 0c97e1aca9b0e344fa23df756e548302, type: 3}
@@ -6666,8 +6680,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: And if you can't see that then you pathetic excuse for a ruler should
-    have never taken the throne.
+  storyText: Perhaps you just need some more time to think things over. But I'd get
+    to it if I were you, this kingdom won't rule itself.
   description: 
   character: {fileID: 1802095111}
   portrait: {fileID: 21300000, guid: 0c97e1aca9b0e344fa23df756e548302, type: 3}
@@ -6723,7 +6737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: I do, and yet you still do not.
+  storyText: That's surprising since it was YOU who came up with this law in the
+    first place.
   description: 
   character: {fileID: 1802095111}
   portrait: {fileID: 21300000, guid: 0c97e1aca9b0e344fa23df756e548302, type: 3}
@@ -6750,7 +6765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  storyText: Do you hear yourself right now?
+  storyText: I'm still not sure about this
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -6935,8 +6950,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 148.40135
-    y: 533.4056
-    width: 92.85712
+    y: 534.4694
+    width: 95.4054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8786,7 +8801,7 @@ MonoBehaviour:
   itemId: 200
   indentLevel: 1
   storyText: As the rightful ruler of this land, you must go over there and assert
-    your authority to the lowlifes of that town.
+    your authority to the people of that town.
   description: 
   character: {fileID: 1802095111}
   portrait: {fileID: 21300000, guid: 0c97e1aca9b0e344fa23df756e548302, type: 3}
@@ -8868,7 +8883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 1
-  storyText: Uhhhh okay, I'll head over there right now.
+  storyText: Uhhhh okay then, I guess I'll head over there right now.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -8969,7 +8984,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 131.26054
     y: 616.92303
-    width: 121.42853
+    width: 125.67567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9517,7 +9532,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 140.33516
     y: 701.8818
-    width: 113.265274
+    width: 117.02702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9661,7 +9676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 386
   indentLevel: 0
-  storyText: What are you talking about?
+  storyText: Is he acting a bit... different than usua?
   description: 
   character: {fileID: 488891557}
   portrait: {fileID: 21300000, guid: a2eea8076b84c2140b31b90a07b98b5f, type: 3}
@@ -9797,7 +9812,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -169.72885
     y: 765.0169
-    width: 141.83669
+    width: 147.29729
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9871,7 +9886,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 406.0452
     y: 763.8405
-    width: 182.65298
+    width: 190.54053
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9941,7 +9956,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 394
   indentLevel: 0
-  storyText: DONT YOU DARE USE THAT TONE WITH ME PEASANTS!
+  storyText: I'd think twice before using that tone with me. You already know what
+    the punishment is like for those who backtalk my royal guard, imagine what I
+    could do to you.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -9968,8 +9985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 396
   indentLevel: 0
-  storyText: YOU FOOLS CLEARLY HAVE NO IDEA WHAT ME AND THIS KINGDOM HAVE BEEN TRYING
-    TO DO!
+  storyText: YOU ALL CLEARLY HAVE NOT BEEN PAYING MUCH ATTENTION TO CURRENT EVENTS.
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -10189,7 +10205,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28.78415
     y: 840.73376
-    width: 111.22446
+    width: 114.86486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10313,7 +10329,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -541.36523
     y: 849.32385
-    width: 143.8775
+    width: 149.45944
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10412,8 +10428,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 412
   indentLevel: 0
-  storyText: But in order to achieve greatness, there are some sacrifices that need
-    to be made...
+  storyText: But in order to achieve greatness, there are likely some sacrifices
+    that will have to be made...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -10605,7 +10621,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -394.63382
     y: 948.4173
-    width: 207.14276
+    width: 216.48648
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10650,7 +10666,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -624.1035
     y: 948.9409
-    width: 174.48972
+    width: 181.89188
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10736,7 +10752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 427
   indentLevel: 0
-  storyText: 'This speech has concluded. Villagers go back to your normal lives. '
+  storyText: This speech has concluded... As you were...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -10763,7 +10779,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 426
   indentLevel: 0
-  storyText: POVERTY WONT EXIST AND THIS HATRED WILL BE A THING OF THE PAST!
+  storyText: POVERTY WONT EXIST AND THIS HATRED WILL HAVE BEEN FOR NOTHING!!! Those
+    who believe in your lord, I welcome your loyalty, but for those whom oppose it,
+    just try and stand against me see where that gets you...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 21300000, guid: f8e8f75c51eb6624aa2066cae28a43ba, type: 3}
@@ -11214,7 +11232,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.49221
     y: 1184.9758
-    width: 147.95914
+    width: 153.78378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11495,7 +11513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 45.351223
     y: 946.2738
-    width: 158.16321
+    width: 164.59459
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11562,7 +11580,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -127.97502
     y: 946.52985
-    width: 135.71423
+    width: 140.8108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12411,7 +12429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 353.43423
     y: 845.50916
-    width: 156.12239
+    width: 162.43243
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12458,7 +12476,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 783.7788
     y: 841.4945
-    width: 145.9183
+    width: 151.62161
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12769,7 +12787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 829.3793
     y: 941.6172
-    width: 129.5918
+    width: 134.32431
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14029,7 +14047,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 687.33014
     y: 939.4929
-    width: 121.42853
+    width: 125.67567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14690,7 +14708,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 429.94885
     y: 940.26514
-    width: 221.42847
+    width: 231.62161
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14738,7 +14756,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.21478
     y: 940.03864
-    width: 170.4081
+    width: 177.56757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18706,7 +18724,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -110.645905
     y: 1286.7957
-    width: 113.265274
+    width: 117.02702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18758,7 +18776,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.51334
     y: 1294.3761
-    width: 147.95914
+    width: 153.78378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19663,7 +19681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 428.9284
     y: 1522.8043
-    width: 101.02038
+    width: 104.05405
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20525,7 +20543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -186.50717
     y: 1441.1716
-    width: 94.897934
+    width: 97.567566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20572,7 +20590,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.752468
     y: 1348.0203
-    width: 80.61223
+    width: 82.432434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20957,7 +20975,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -203.3465
     y: 1523.8308
-    width: 115.30608
+    width: 119.189186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21622,7 +21640,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1.1646972
     y: 1441.1406
-    width: 109.18364
+    width: 112.7027
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21871,7 +21889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2.3800464
     y: 1506.3259
-    width: 109.18364
+    width: 112.7027
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28211,7 +28229,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021563
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28241,7 +28259,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021564
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28271,7 +28289,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021565
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28301,7 +28319,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021566
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28331,7 +28349,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021567
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28361,7 +28379,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021568
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28391,7 +28409,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021569
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28421,7 +28439,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021570
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28451,7 +28469,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021571
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28481,7 +28499,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021572
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28511,7 +28529,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021573
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28541,7 +28559,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021574
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28571,7 +28589,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021575
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28601,7 +28619,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021576
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28631,7 +28649,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021577
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28661,7 +28679,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021578
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28691,7 +28709,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021579
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28721,7 +28739,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021580
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28751,7 +28769,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021581
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28781,7 +28799,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021582
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28811,7 +28829,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021583
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28841,7 +28859,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021584
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28871,7 +28889,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021585
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28901,7 +28919,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021586
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28931,7 +28949,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021587
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28961,7 +28979,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021588
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28991,7 +29009,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021589
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29021,7 +29039,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021590
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29051,7 +29069,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021591
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29081,7 +29099,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021592
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29111,7 +29129,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021593
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29141,7 +29159,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021594
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29171,7 +29189,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021595
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29201,7 +29219,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021596
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29231,7 +29249,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021597
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29261,7 +29279,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021598
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29291,7 +29309,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021599
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29321,7 +29339,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021600
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29351,7 +29369,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021601
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29381,7 +29399,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021602
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29411,7 +29429,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021603
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29441,7 +29459,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021604
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29471,7 +29489,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021605
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29501,7 +29519,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021606
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29531,7 +29549,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021607
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29561,7 +29579,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021608
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29591,7 +29609,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021609
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29621,7 +29639,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021610
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29651,7 +29669,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021611
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29681,7 +29699,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021612
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29711,7 +29729,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021613
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29741,7 +29759,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021614
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29771,7 +29789,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021615
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29801,7 +29819,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021616
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29831,7 +29849,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021617
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29861,7 +29879,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021618
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29891,7 +29909,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021619
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29921,7 +29939,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021620
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29951,7 +29969,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021621
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29981,7 +29999,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021622
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30011,7 +30029,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021623
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30041,7 +30059,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021624
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30071,7 +30089,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021625
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30101,7 +30119,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &911021626
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30129,6 +30147,117 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &911021627
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 973
+  indentLevel: 0
+  storyText: '*Everyone laughs*'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021628
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 974
+  indentLevel: 0
+  storyText: If there's one thing we can count on with our enemies to the south,
+    it is that they are soft. They will surly hesitate to fire upon defensless prisoners,
+    and if not, their troops will surly take a hit to moral. No matter the outcome
+    though, we will still be the victor.
+  description: 
+  character: {fileID: 1982682656}
+  portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021629
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 975
+  indentLevel: 0
+  storyText: Um... what was that?
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021630
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 976
+  indentLevel: 0
+  storyText: 20 percent probably was too much for them.
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 21300000, guid: ef911a6e7163700458e85f1c6430a08c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &927573241
 GameObject:
   m_ObjectHideFlags: 0
