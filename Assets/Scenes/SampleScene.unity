@@ -683,7 +683,6 @@ GameObject:
   - component: {fileID: 911020861}
   - component: {fileID: 911020879}
   - component: {fileID: 911020878}
-  - component: {fileID: 911020876}
   - component: {fileID: 911020877}
   - component: {fileID: 911020875}
   - component: {fileID: 911020880}
@@ -1158,6 +1157,28 @@ GameObject:
   - component: {fileID: 911021354}
   - component: {fileID: 911020991}
   - component: {fileID: 911020992}
+  - component: {fileID: 911020993}
+  - component: {fileID: 911020994}
+  - component: {fileID: 911020995}
+  - component: {fileID: 911021355}
+  - component: {fileID: 911021356}
+  - component: {fileID: 911021359}
+  - component: {fileID: 911021358}
+  - component: {fileID: 911021357}
+  - component: {fileID: 911021360}
+  - component: {fileID: 911021362}
+  - component: {fileID: 911021361}
+  - component: {fileID: 911021363}
+  - component: {fileID: 911021365}
+  - component: {fileID: 911021364}
+  - component: {fileID: 911021366}
+  - component: {fileID: 911021367}
+  - component: {fileID: 911021368}
+  - component: {fileID: 911021371}
+  - component: {fileID: 911021370}
+  - component: {fileID: 911021369}
+  - component: {fileID: 911021372}
+  - component: {fileID: 911021373}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1178,11 +1199,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 447.0763, y: 58.958435}
+  scrollPos: {x: 298.26382, y: -163.14726}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402
-  zoom: 1
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1190,9 +1211,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 911020783}
+  - {fileID: 911020857}
   selectedCommands:
-  - {fileID: 911021150}
+  - {fileID: 911020965}
   variables:
   - {fileID: 911020841}
   - {fileID: 911020840}
@@ -1223,9 +1244,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 138.88235
+    x: 139.88235
     y: 1.0588303
-    width: 117
+    width: 115.15463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1278,6 +1299,7 @@ MonoBehaviour:
   - {fileID: 911021153}
   - {fileID: 911020799}
   - {fileID: 911020836}
+  - {fileID: 911020993}
   - {fileID: 911021152}
   - {fileID: 911021151}
   - {fileID: 911020838}
@@ -1382,7 +1404,7 @@ MonoBehaviour:
   itemId: 12
   indentLevel: 0
   storyText: This guy keyed my car and now he has to pay for it. If you don't wanna
-    end up like him too? I suggest you walk away now, or things will get ugly
+    end up like him too? I suggest you walk away now.
   description: 
   character: {fileID: 747927927}
   portrait: {fileID: 21300000, guid: edeaf45b0d2b86e42a6ca0bcbe339acf, type: 3}
@@ -1944,7 +1966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 119.53226
     y: 163.35078
-    width: 154
+    width: 152.26804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1963,19 +1985,30 @@ MonoBehaviour:
   - {fileID: 911021158}
   - {fileID: 911020815}
   - {fileID: 911020835}
+  - {fileID: 911020994}
+  - {fileID: 911020995}
   - {fileID: 911020834}
   - {fileID: 911020814}
   - {fileID: 911020833}
   - {fileID: 911020832}
   - {fileID: 911021159}
   - {fileID: 911020831}
+  - {fileID: 911021355}
   - {fileID: 911020830}
+  - {fileID: 911021356}
   - {fileID: 911020829}
+  - {fileID: 911021359}
   - {fileID: 911020828}
+  - {fileID: 911021358}
+  - {fileID: 911021357}
+  - {fileID: 911021360}
   - {fileID: 911020827}
   - {fileID: 911020826}
   - {fileID: 911021160}
   - {fileID: 911020825}
+  - {fileID: 911021361}
+  - {fileID: 911021363}
+  - {fileID: 911021362}
   - {fileID: 911020823}
   - {fileID: 911020821}
   - {fileID: 911020819}
@@ -1994,7 +2027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: KID!!! Where did he go?
+  storyText: AHHHHHHhhhhh.... Huh?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -2112,7 +2145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: I ALSO DONT LOOK LIKE THAT?! WHAT THE HELL IS GOING ON?!
+  storyText: GUAHHH!!! WHAT HAPPENED TO MY FACE?!?!
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -2166,7 +2199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: I WAS ALSO NOT WEARING ARMOR?!
+  storyText: Um... where the hell am I, and... what am I wearing?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -2247,7 +2280,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 413.51306
     y: 301.401
-    width: 171
+    width: 167.93814
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2309,7 +2342,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 121.84956
     y: 287.88785
-    width: 152
+    width: 150.61855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2373,7 +2406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -162.1493
     y: 295.90005
-    width: 145
+    width: 142.37112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2387,10 +2420,18 @@ MonoBehaviour:
   - {fileID: 911020845}
   - {fileID: 911020844}
   - {fileID: 911020843}
+  - {fileID: 911021365}
+  - {fileID: 911021364}
+  - {fileID: 911021366}
+  - {fileID: 911021367}
   - {fileID: 911020842}
+  - {fileID: 911021368}
   - {fileID: 911020855}
+  - {fileID: 911021371}
   - {fileID: 911020854}
   - {fileID: 911020853}
+  - {fileID: 911021370}
+  - {fileID: 911021369}
   - {fileID: 911020852}
   - {fileID: 911020851}
   - {fileID: 911020850}
@@ -2416,8 +2457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: Thank god he left... now what was that about the three tasks I have
-    to go to?
+  storyText: 'Thank god he left... '
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -2471,9 +2511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: You have a public execution to attend, a war meeting to speak at and
-    you must meet me in the study to make laws. I better see and hear that you attended
-    all of these.
+  storyText: So, today, you have a public execution to attend, a war meeting to speak
+    at, and you must meet me in the study to make some new laws for your subjects.
+    I better see and hear that you attended all of these.
   description: 
   character: {fileID: 1802095111}
   portrait: {fileID: 0}
@@ -2500,10 +2540,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: NO EXCUSES MY LORD! I won't tolerate no more of this! You have important
-    duties to attend to.
+  storyText: Dark... Lord?
   description: 
-  character: {fileID: 1802095111}
+  character: {fileID: 1622424472}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2582,8 +2621,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: There you are my lord, the whole castle has been looking for you! How
-    come you havent even left your room?
+  storyText: I figured you'd still be in here. Your sleep habits are atrocious as
+    per usual. the whole castle has been looking for you and you havent even left
+    your room!
   description: 
   character: {fileID: 1802095111}
   portrait: {fileID: 0}
@@ -2610,7 +2650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: Lord???
+  storyText: Who the hell was that, and why did they call me lord?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -2691,7 +2731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: Did I... noooo that kind of stuff only happens in anime...
+  storyText: Wait there's a window over there
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -2719,7 +2759,7 @@ MonoBehaviour:
   itemId: 51
   indentLevel: 0
   storyText: Why are there always guys like them who just pile on people who can't
-    stand up for themselves.
+    stand up for themselves..
   description: 
   character: {fileID: 2019694135}
   portrait: {fileID: 21300000, guid: f2b581a52fe941348838adb9f64c1823, type: 3}
@@ -2845,7 +2885,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: You're acting extra strange today
+  storyText: 'Yeah... Did you forget? You promised to take me on a date today to
+    indulge in my favorite passtime '
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -2872,9 +2913,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: Hello dear! I hope you're enjoying this F I N E day outside!
+  storyText: There you are, I was wondering when you were going to show. Oversleep
+    again?
   description: 
-  character: {fileID: 1622424472}
+  character: {fileID: 1838192801}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2899,8 +2941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: My dear? I guess in this world I have a girlfriend of sorts. And shes
-    pretty cute too, better play this extra careful
+  storyText: My love?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -2927,7 +2968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: My Dear over here!!!
+  storyText: My love, over here!!!
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -3161,7 +3202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: SHHHHH ITS STARTING!!!
+  storyText: Trial? OH SHHHHH ITS STARTING!!!
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -3188,7 +3229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: Uhhhh right...?
+  storyText: Oh um... right.... was there ever a trial or...
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -3215,7 +3256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: No clue? They're common folk so it probably doesn't matter anyways.
+  storyText: No clue? They're common folk so it probably has something to do with
+    them stealing something or backtalking your royal guard.
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -3242,7 +3284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: You know why theres an execution being held today?
+  storyText: Oh um... Can you remind me why theres an execution being held today?
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -3269,7 +3311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: Right, best for executions...
+  storyText: Right, best for....
   description: 
   character: {fileID: 1622424472}
   portrait: {fileID: 0}
@@ -3350,7 +3392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  text: 'Let Peasant speak
+  text: 'Let peasant speak
 
 '
   description: 
@@ -3379,7 +3421,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -253.56166
     y: 389.70645
-    width: 154
+    width: 150.61855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3398,7 +3440,9 @@ MonoBehaviour:
   - {fileID: 911020867}
   - {fileID: 911020866}
   - {fileID: 911020865}
+  - {fileID: 911021372}
   - {fileID: 911020864}
+  - {fileID: 911021373}
   - {fileID: 911020863}
   - {fileID: 911020862}
   - {fileID: 911020861}
@@ -3406,7 +3450,6 @@ MonoBehaviour:
   - {fileID: 911020878}
   - {fileID: 911020877}
   - {fileID: 911021353}
-  - {fileID: 911020876}
   - {fileID: 911021354}
   - {fileID: 911020875}
   - {fileID: 911020965}
@@ -3425,7 +3468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: Pathetic!
+  storyText: Oh I love it when they panic in their final moments. It always makes
+    things more entertaining to watch.
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -3452,9 +3496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: '...
-
-'
+  storyText: You're all monsters... I HOPE YOU ALL ROT IN HELL!!!
   description: 
   character: {fileID: 1501525063}
   portrait: {fileID: 0}
@@ -3483,7 +3525,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -81.78949
     y: 389.20645
-    width: 95
+    width: 92.8866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3517,7 +3559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 0
-  storyText: '......
+  storyText: '...... I think I''m gonna be sick
 
 '
   description: 
@@ -3546,7 +3588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: YEAHHHHHHH!!!!!!!
+  storyText: Huhahahaha....HAHAHAHAHAHAHA!!!! Ohhhhhh that was priceless.
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -3655,8 +3697,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: I STOLE FOOD FROM YOU DEMONS! HORDING ALL THIS FOOD FOR YOURSELVES WHEN
-    YOU SHOULD BE SHARING IT!
+  storyText: I TOOK FOOD FROM YOU DEMONS! HORDING ALL THIS FOOD FOR YOURSELVES WHEN
+    YOU SHOULD BE SHARING IT AMONG MY PEOPLE!
   description: 
   character: {fileID: 1501525063}
   portrait: {fileID: 0}
@@ -3792,7 +3834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: What do you think you're doing?!
+  storyText: Ummm... What do you think you're doing?!
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -3900,37 +3942,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: ....
+  storyText: .... I see...
   description: 
   character: {fileID: 1622424472}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &911020876
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911020781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 94
-  indentLevel: 0
-  storyText: 'Clearly he thought we were the bad guys and tried to break into the
-    castle and steal our food. '
-  description: 
-  character: {fileID: 1838192801}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3955,8 +3969,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: 'Relax honey. Clearly you did not attend the pre execution meeting.
-    The man was diagnosed with an illness. '
+  storyText: Relax love. Don't let it weigh on you mind. I also overheard the guards
+    talking about how he might have had some sort of illness or something. Probably
+    better he died so he doesn't spread it.
   description: 
   character: {fileID: 1838192801}
   portrait: {fileID: 0}
@@ -4559,7 +4574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 89.594246
     y: 380.38785
-    width: 87
+    width: 86.28866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4680,7 +4695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 200.84955
     y: 382.38785
-    width: 109
+    width: 108.5567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5592,7 +5607,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 513.2075
     y: 386.1866
-    width: 154
+    width: 152.26804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5650,7 +5665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.00162
     y: 384.8631
-    width: 145
+    width: 143.19586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6291,7 +6306,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 148.40135
     y: 533.4056
-    width: 99
+    width: 97.83505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8317,7 +8332,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 131.26054
     y: 616.92303
-    width: 134
+    width: 132.47421
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8420,6 +8435,88 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &911020993
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 693
+  indentLevel: 0
+  storyText: Hey wait there's that kid again
+  description: 
+  character: {fileID: 2019694135}
+  portrait: {fileID: 21300000, guid: f2b581a52fe941348838adb9f64c1823, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911020994
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 694
+  indentLevel: 0
+  storyText: '*Looks out window*'
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911020995
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 695
+  indentLevel: 0
+  storyText: That's a... a whole city?! Am I in some sort of castle?! This can't
+    be real
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &911020996
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8781,7 +8878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 140.33516
     y: 701.8818
-    width: 120
+    width: 117.62886
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9053,7 +9150,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -169.72885
     y: 765.0169
-    width: 150
+    width: 147.31958
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9117,7 +9214,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 406.0452
     y: 763.8405
-    width: 200
+    width: 197.62886
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9429,7 +9526,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28.78415
     y: 840.73376
-    width: 117
+    width: 114.329895
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9547,7 +9644,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -541.36523
     y: 849.32385
-    width: 155
+    width: 152.26804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9829,7 +9926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -394.63382
     y: 948.4173
-    width: 224
+    width: 220.72163
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9867,7 +9964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -622.7877
     y: 948.9409
-    width: 194
+    width: 192.6804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10429,7 +10526,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.49221
     y: 1184.9758
-    width: 159
+    width: 157.21649
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10706,7 +10803,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 49.636932
     y: 940.5595
-    width: 170
+    width: 167.1134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10767,7 +10864,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -127.97502
     y: 946.52985
-    width: 144
+    width: 142.37112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11608,7 +11705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 352.16843
     y: 845.50916
-    width: 168
+    width: 165.4639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11647,7 +11744,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 783.7788
     y: 841.4945
-    width: 160
+    width: 156.39175
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11952,7 +12049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 829.3793
     y: 941.6172
-    width: 140
+    width: 139.07216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13206,7 +13303,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 687.33014
     y: 939.4929
-    width: 133
+    width: 132.47421
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13898,7 +13995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.21478
     y: 938.7728
-    width: 183
+    width: 179.48453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17859,7 +17956,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -110.645905
     y: 1286.7957
-    width: 121
+    width: 119.27834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17901,7 +17998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.51334
     y: 1293.2397
-    width: 163
+    width: 162.16495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18796,7 +18893,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 428.9284
     y: 1522.8043
-    width: 111
+    width: 109.38144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19650,7 +19747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -186.50717
     y: 1441.1716
-    width: 100
+    width: 98.65979
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19688,7 +19785,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 18.971981
     y: 1348.0203
-    width: 83
+    width: 82.16495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20069,7 +20166,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -203.3465
     y: 1523.8308
-    width: 125
+    width: 122.57732
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20725,7 +20822,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1.1646972
     y: 1441.1406
-    width: 117
+    width: 115.15463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20970,7 +21067,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2.3800464
     y: 1506.3259
-    width: 116
+    width: 115.15463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21269,10 +21366,530 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 690
   indentLevel: 0
-  storyText: Poor fool, if he would've stolen the food, he would have contaminated
-    the whole village with his disease. A loose loose situation if you ask me.
+  storyText: If he would've stolen the food, he would have contaminated the whole
+    village with his disease.
   description: 
   character: {fileID: 1838192801}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021355
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 696
+  indentLevel: 0
+  storyText: With the way you compose yourself, sometimes I wonder if you even want
+    to be ruler of this world
+  description: 
+  character: {fileID: 1802095111}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021356
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 697
+  indentLevel: 0
+  storyText: I need to play it cool
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021357
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 700
+  indentLevel: 0
+  storyText: Huh?! Oh no of course not
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021358
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 699
+  indentLevel: 0
+  storyText: ... Did I stutter... your highness?
+  description: 
+  character: {fileID: 1802095111}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021359
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 698
+  indentLevel: 0
+  storyText: NO EXCUSES MY LORD! I won't tolerate no more of this! You have important
+    duties to attend to. Even a DARK LORD needs to be responsible for his kingdom.
+  description: 
+  character: {fileID: 1802095111}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021360
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 701
+  indentLevel: 0
+  storyText: Good *smiles*
+  description: 
+  character: {fileID: 1802095111}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021361
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 703
+  indentLevel: 0
+  storyText: He seems to think I'm some sort of lord or something.... Maybe.... Maybe
+    I'm not dreaming. Could this all... be real?
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021362
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 702
+  indentLevel: 0
+  storyText: Now what was that about the three tasks I have to go to?
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021363
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 704
+  indentLevel: 0
+  storyText: If this isn't a dream... Then I think the best course of action would
+    be to play along for awhile.
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021364
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 706
+  indentLevel: 0
+  storyText: Too much, if you ask me. You may be a great and powerful leader but
+    even you can't rule a kingdom in your sleep
+  description: 
+  character: {fileID: 1838192801}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021365
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 705
+  indentLevel: 0
+  storyText: Oh um.. yeah. I guess that a lot
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021366
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 707
+  indentLevel: 0
+  storyText: Well I'm glad you came when you did, the show's about to start
+  description: 
+  character: {fileID: 1838192801}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021367
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 708
+  indentLevel: 0
+  storyText: Show?
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021368
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 709
+  indentLevel: 0
+  storyText: Honestly love, if you want this relationship thing to work out you need
+    to stop forgetting these things. Also, you're acting kind of strange today
+  description: 
+  character: {fileID: 1838192801}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021369
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 712
+  indentLevel: 0
+  storyText: Well let's get our seats.
+  description: 
+  character: {fileID: 1838192801}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021370
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 711
+  indentLevel: 0
+  storyText: Exe...cutions....
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021371
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 710
+  indentLevel: 0
+  storyText: '*Based on what this woman is saying, this must be my girlfriend or
+    something in this world*'
+  description: 
+  character: {fileID: 1622424472}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 713
+  indentLevel: 0
+  storyText: '*CHOP*'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &911021373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911020781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 714
+  indentLevel: 0
+  storyText: Whoops, my hand slipped, hehe
+  description: 
+  character: {fileID: 299315241}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
